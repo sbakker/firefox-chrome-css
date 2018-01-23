@@ -25,7 +25,9 @@
 /*
  * HTTP and FILE documents
  */
-@-moz-document url-prefix("http"), url-prefix("file") {
+@-moz-document url-prefix("http"),
+url-prefix("file"),
+url-prefix("moz-extension") {
     body {
         color: var(--default-bg-color);
         background: var(--default-fg-color);
